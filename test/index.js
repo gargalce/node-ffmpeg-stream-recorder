@@ -9,7 +9,7 @@ const conf = {
 const data = {
     basePath: 'e:/',
     fileName: 'grab_' + (new Date().getTime()) + '.mp4',
-    duration: 10, // duration in seconds
+    duration: 100, // duration in seconds
     type: 'video', // video or audio,
 };
 
