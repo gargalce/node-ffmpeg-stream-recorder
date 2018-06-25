@@ -1,0 +1,20 @@
+{
+    "name": "node-ffmpeg-stream-recorder",
+    "version": "1.0.0",
+    "description": "",
+    "main": "./lib/node-ffmpeg-stream-recorder.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/gargalce/node-ffmpeg-stream-recorder.git"
+    },
+    "author": "Cesar Garcia (gargalce@gmail.com)",
+    "license": "ISC",
+    "dependencies": {
+        "child_process": "^1.0.2",
+        "fs": "0.0.1-security",
+        "util": "^0.11.0"
+    }
+}
