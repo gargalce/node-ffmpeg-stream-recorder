@@ -9,7 +9,7 @@ const conf = {
 const data = {
     basePath: 'e:/',
     fileName: 'grab_' + (new Date().getTime()) + '.mp4',
-    duration: 100, // duration in seconds
+    duration: 10, // duration in seconds
     type: 'video', // video or audio,
 };
 
@@ -17,4 +17,4 @@ function callback(data) {
     console.log("End Process");
 }
 
-console.log(rffmpeg.record(data, conf, callback));
+rffmpeg.record(data, conf, callback);
