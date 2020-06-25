@@ -54,16 +54,17 @@ const callbackError = (data) => {
     console.log("End ERROR Process");
 }
 ```
-// Record Stream
-rffmpeg.record(data, conf, callback, callbackError);
 
+// Record Stream
+
+```rffmpeg.record(data, conf, callback, callbackError);```
 
 # Get Process PID
-rffmpeg.getProcessPid();
+```rffmpeg.getProcessPid();```
 
 # Get FFMPEG process PID
-rffmpeg.getPid();
+```rffmpeg.getPid();```
 
 or
 
-rffmpeg.getFFMPEGPid();
+```rffmpeg.getFFMPEGPid();```
