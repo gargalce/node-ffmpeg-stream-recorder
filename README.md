@@ -10,6 +10,7 @@ v8.10.0
 
 # Config File
 // Define route FFMPEG.EXE, URLStream to record and Enabled and config Log files
+
 const conf = {
     ffmpegPath: 'C:/ffmpeg/bin/',
     urlStream: 'http://playertest.longtailvideo.com/adaptive/bipbop/bipbop.m3u8',
@@ -18,6 +19,7 @@ const conf = {
 };
 
 // Define the path to save the recorded file, recording duration and type (video or audio file)
+
 const data = {
     basePath: 'C:/TEMP/',
     fileName: '',
