@@ -1,6 +1,10 @@
 # Install dependencies
 > npm install
 
+
+It is necessary to install FFMPEG, you can download the latest version from here:
+https://ffmpeg.zeranoe.com/builds/
+
 # Execute exemple
 > node test/index.js
 
