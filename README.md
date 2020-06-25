@@ -10,16 +10,16 @@ v8.10.0
 
 # Config File
 // Define route FFMPEG.EXE, URLStream to record and Enabled and config Log files
-
+```
 const conf = {
     ffmpegPath: 'C:/ffmpeg/bin/',
     urlStream: 'http://playertest.longtailvideo.com/adaptive/bipbop/bipbop.m3u8',
     enabledLogs: true,
     logFile: 'C:/TEMP/ffmpegRecorder-' +new Date().toISOString().slice(0, 10) + '.log'
 };
-
+```
 // Define the path to save the recorded file, recording duration and type (video or audio file)
-
+```
 const data = {
     basePath: 'C:/TEMP/',
     fileName: '',
@@ -42,16 +42,18 @@ const data = {
         size: "1280x720"
     }
 }
-
+```
 # Example Code
+```
 const callback = (data) => {
     console.log("End Process");
 }
-
+```
+```
 const callbackError = (data) => {
     console.log("End ERROR Process");
 }
-
+```
 // Record Stream
 rffmpeg.record(data, conf, callback, callbackError);
 
@@ -61,5 +63,7 @@ rffmpeg.getProcessPid();
 
 # Get FFMPEG process PID
 rffmpeg.getPid();
+
 or
+
 rffmpeg.getFFMPEGPid();
